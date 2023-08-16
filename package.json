@@ -2,10 +2,10 @@
   "name": "backend-portafol",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node .",
+    "start": "cd src && node index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
